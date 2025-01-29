@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
 
-def create_graph(x,y,Nama="Osilasi Harmnis",Position=False,Double=False):
+def create_graph(x,y,Nama="Osilasi Harmonis",Position=False,Double=False):
     plt.figure(figsize=(5, 3))
     if Position == True and Double==True: 
         x1,x2=x
